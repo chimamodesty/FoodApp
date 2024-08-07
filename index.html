@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Food selection</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="food-container">
+    <h3>Order Your Food</h3>
+    <p>Our list of food and their prices</p>
+    <label for="whichFood">Select:</label>
+    <select id="whichFood" onchange="fixPrice()">
+        <option value="Varieties of food">Varieties of food</option>
+        <option value="Akpu and Egusi soup">Akpu and Egusi soup</option>
+        <option value="Akpu and Bitterleaf soup">Akpu and Bitterleaf soup</option>
+        <option value="Akpu and oha soup">Akpu and oha soup</option>
+        <option value="Akpu and ofe nsala">Akpu and ofe nsala</option>
+        <option value="Rice and Stew">Rice and Stew</option>
+        <option value="Rice and ofe akwu">Rice and ofe akwu</option>
+        <option value="Jollof rice and chicken">Jollof rice and chicken</option>
+    </select>
+
+    <p id="div"></p><br>
+    <button>Order</button>
+</div>
+
+     <script src="script.js"></script>
+</body>
+</html>
